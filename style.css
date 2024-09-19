@@ -1,0 +1,357 @@
+body {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.top-header ul {
+    margin: 0%;
+    color: #c4b7aa;
+    left: 0;
+    top: 4%;
+    position: absolute;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 2px;
+    display: flex;
+    list-style: none;
+}
+
+#tricky {
+    margin-top: -9%;
+}
+
+.top-header {
+    background-color: #221f20;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.navbutton {
+    margin-top: -10%;
+    display: flex;
+}
+
+.top-header svg {
+    height: 27px;
+    padding: 20px;
+    display: flex;
+}
+
+.title {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 22px;
+    color: black;
+}
+
+.body-text {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 13px;
+    color: black;
+}
+
+
+.image-container {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+}
+
+.button1 {
+    border: 2px solid #333;
+    background: #e0d7cf;
+    top: 340px;
+    left: 280px;
+    width: 250px;
+    height: 80px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+}
+
+.button2 {
+    border: 2px solid #333;
+    background: #e0d7cf;
+    top: 340px;
+    right: 280px;
+    width: 250px;
+    height: 80px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+
+}
+
+.burger-container {
+    padding-bottom: 0%;
+    position: relative;
+}
+
+.burgertext {
+    position: absolute;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 35px;
+    color: #ffffff;
+    bottom: 120px;
+    left: 20px;
+}
+
+.bottomburgertext {
+    position: absolute;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    color: #ffffff;
+    bottom: 50px;
+    left: 20px;
+}
+
+.produce-container {
+    position: relative;
+}
+
+
+.produce-text {
+    position: absolute;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 35px;
+    color: #ffffff;
+    bottom: 10px;
+    right: 15px;
+}
+
+.four-images {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    gap: 20px;
+}
+
+
+.four-images-two {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    padding-bottom: 20px;
+    gap: 20px;
+}
+
+.spices {
+    padding-bottom: 20px;
+    padding-top: 20px;
+    position: relative;
+}
+
+.spices-text-top {
+    position: absolute;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 35px;
+    color: #ffffff;
+    bottom: 80px;
+    left: 20px;
+}
+
+.spcies-text-bottom {
+    position: absolute;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    color: #ffffff;
+    bottom: 35px;
+    left: 20px;
+}
+
+.softserve {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    padding-bottom: 20px;
+    gap: 25px;
+}
+
+.bottom-footer {
+    background-color: #221f20;
+    height: 300px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.lastimage {
+    position: relative;
+}
+
+
+.lastimagetext {
+    position: absolute;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 35px;
+    color: #ffffff;
+    bottom: 150px;
+    left: 20px;
+}
+
+button {
+    position: absolute;
+    font-size: 50px;
+}
+
+.bottom-footer svg {
+    height: 27px;
+    padding: 20px;
+    display: flex;
+}
+
+.lists-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.bottom-footer ul {
+    margin: 0%;
+    color: #c4b7aa;
+    left: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+    list-style: none;
+}
+
+.bottom-footer ul h1 {
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.tonicbar {
+    position: relative;
+}
+
+.tonicbartext {
+    position: absolute;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 35px;
+    color: #ffffff;
+    bottom: 20px;
+    left: 90px;
+}
+
+.juice {
+    position: relative;
+}
+
+.juicetext {
+    position: absolute;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 35px;
+    color: #ffffff;
+    bottom: 20px;
+    left: 35px;
+
+}
+
+.cookie {
+    position: relative;
+}
+
+@media (max-width: 414px) {
+    .image-container {
+        display: block;
+        padding-bottom: 0px;
+    }
+
+    img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .button1 {
+        top: 200px;
+        left: 100px;
+        width: 230px;
+        height: 50px;
+    }
+
+    .button2 {
+        top: 500px;
+        left: 100px;
+        width: 230px;
+        height: 50px;
+    }
+
+    .title {
+        font-size: 15px;
+    }
+
+    .burger-container {
+        padding-bottom: 0px;
+    }
+
+    .burgertext {
+        bottom: 25px;
+        font-size: 20px;
+    }
+
+    .bottomburgertext {
+        font-size: 10px;
+        bottom: 2px;
+    }
+
+    .tonicbartext {
+        font-size: 15px;
+        left: 40px;
+    }
+
+    .juicetext {
+        font-size: 15px;
+    }
+
+    .produce-text {
+        font-size: 15px;
+    }
+
+    .spices-text-top {
+        bottom: 40px;
+        font-size: 15px;
+    }
+
+    .spcies-text-bottom {
+        font-size: 8px;
+        bottom: 25px;
+    }
+
+    .lastimagetext {
+        font-size: 15px;
+        bottom: 65px;
+    }
+
+    .spices {
+        padding-bottom: 0px;
+        padding-top: 0%;
+    }
+
+    .bottom-footer ul h1 {
+        font-size: 19px;
+    }
+
+    .bottom-footer ul {
+        font-size: 11px;
+    }
+
+    #tricky {
+        display: none;
+    }
+
+    .tricky {
+        display: none;
+    }
+
+    .trickybutton {
+        display: none;
+    }
+}
